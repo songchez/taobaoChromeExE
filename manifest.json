@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Tmall Image Downloader",
+  "version": "1.0",
+  "description": "Download all images with .jpg extensions from Tmall pages.",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "host_permissions": ["https://*.tmall.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
