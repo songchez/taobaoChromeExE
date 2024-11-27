@@ -3,7 +3,7 @@
   "name": "Taobao Image Downloader",
   "version": "1.0",
   "description": "타오바오 이미지를 다운로드 해주는 확장프로그램입니다. + 1688, Tmall, .etc",
-  "permissions": ["activeTab", "downloads", "scripting"],
+  "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
